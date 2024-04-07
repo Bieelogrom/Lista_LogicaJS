@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Zen+Tokyo+Zoo&display=swap');
+
+*{
+    font-family: "Roboto Mono", monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --branco- : #fff;
+    --cor-principal : #FF9800;
+    --cor-secundaria : #2C7865;
+    --cor-terciaria : #90D26D;
+}
+
+body{
+    background: #B4B4B8;
+}
+
+.lista_de_atividades{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.lista_de_atividades_corpo{
+    background: var(--branco-);
+    width: 400px;
+    height: 95%;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.lista_de_atividades_nav{
+    background: var(--cor-principal);
+    width: 100%;
+    height: 10%;
+    border-radius: 2px;
+}
+
+.paragrafo_nav{
+    color: var(--branco-);
+    font-weight: bold;
+    cursor: context-menu;
+    font-size: 18px;
+}
+
+.lista_de_atividades_nav_titulo{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
