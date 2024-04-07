@@ -65,10 +65,6 @@ body{
     overflow: auto; */
 }
 
-.lista_de_atividades_itens ol{
-
-}
-
 .lista_de_atividades_itens li {
         list-style: none;
         padding: 10px;
