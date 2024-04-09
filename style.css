@@ -59,7 +59,7 @@ body{
 
 .lista_de_atividades_itens{
     width: 100%;
-    height: 550px;
+    height: 525px;
     overflow: auto;
     /* text-align: center;
     overflow: auto; */
@@ -70,6 +70,14 @@ body{
         padding: 10px;
         border: var(--cor-terciaria) 1.5px solid;
         border-radius: 2px;
+}
+
+.lista_de_atividades_itens li:hover{
+    a{
+       color: var(--branco-); 
+    }
+
+    background: var(--cor-secundaria);
 }
 
 
