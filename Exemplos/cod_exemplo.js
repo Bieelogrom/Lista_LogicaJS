@@ -65,3 +65,9 @@ function ContadoraIncrementa(){
 function SomaDois(){
     // 1 até 43 sem 39
 }
+
+function alterarFundo(){
+
+
+    document.getElementsByTagName('body')[0].style.background =  "#93E1D8"
+}

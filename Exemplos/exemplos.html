@@ -39,13 +39,18 @@
             cursor: pointer;
         }
 
+        .btn:focus{
+            background: #fff;
+            color: black;
+        }
+
         .btn-sucesso{
             background-color: #1C7C54;
             color: #fff;
         }
     </style>
 </head>
-<body>
+<body id="corpo_pg"> 
     <div class="cod_base">
         <div class="códigos_teste">
             <button type="button" onclick="TestaCodigo()" class="btn btn-sucesso">testar código "if-ternário"</button>
@@ -56,6 +61,7 @@
             <button type="button" onclick="calculadoraGb()" class="btn btn-sucesso">testar código "calculadora"</button>
             <button type="button" onclick="ContadoraIncrementa()" class="btn btn-sucesso">testar código "atéCem"</button>
             <button type="button" onclick="SomaDois()" class="btn btn-sucesso">testar código "Soma Pares"</button>
+            <button type="button" onclick="alterarFundo()" class="btn btn-sucesso">testar código "Alterar fundo"</button>
             
         </div>
     </div>
