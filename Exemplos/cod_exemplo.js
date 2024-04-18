@@ -71,3 +71,53 @@ function alterarFundo(){
 
     document.getElementsByTagName('body')[0].style.background =  "#93E1D8"
 }
+
+
+function calculaIdade(){
+    var idade_da_pessoa = parseInt(prompt("Digite a sua idade: "))
+    var habilitacao = parseInt(prompt("Você é habilitado? \n 1 - Sim ou 2 - Não"))
+
+    if(idade_da_pessoa >= 18 && habilitacao == 1){
+        alert("Você já pode dirigir, pois é habilitado e tem idade o suficiente!")
+    }else{
+        alert("Você não pode dirigir, pois é não é habilitado e não tem idade o suficiente!")
+    }
+
+
+}
+
+function calculaIdadeOU(){
+    var idade_da_pessoa = parseInt(prompt("Digite a sua idade: "))
+    var habilitacao = parseInt(prompt("Você é habilitado? \n 1 - Sim ou 2 - Não"))
+
+    if(idade_da_pessoa >= 18 || habilitacao == 1){
+        alert("Você já pode dirigir!")
+    }else{
+        alert("Você não pode dirigir!")
+    }
+}
+
+
+
+function portaLogicaNao(){
+    var idade_da_pessoa = parseInt(prompt("Digite a sua idade: "))
+    var habilitacao = parseInt(prompt("Você é habilitado? \n 1 - Sim ou 2 - Não"))
+
+    if(!(idade_da_pessoa >= 18 && habilitacao == 1)){
+        alert("Você já pode dirigir, pois é habilitado e tem idade o suficiente!")
+    }else{
+        alert("Você não pode dirigir, pois é não é habilitado e não tem idade o suficiente!")
+    }
+
+}
+
+function portaLogicaNaoOU(){
+    var idade_da_pessoa = parseInt(prompt("Digite a sua idade: "))
+    var habilitacao = parseInt(prompt("Você é habilitado? \n 1 - Sim ou 2 - Não"))
+
+    if(!(idade_da_pessoa >= 18 || habilitacao == 1)){
+        alert("Você já pode dirigir!")
+    }else{
+        alert("Você não pode dirigir!")
+    }
+}
