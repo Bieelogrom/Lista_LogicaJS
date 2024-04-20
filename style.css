@@ -7,78 +7,63 @@
     box-sizing: border-box;
 }
 
-:root{
-    --branco- : #fff;
-    --cor-principal : #FF9800;
-    --cor-secundaria : #2C7865;
-    --cor-terciaria : #90D26D;
+body,
+html{
+    margin: 0;
+    height: 100%;
 }
 
-body{
-    background: #B4B4B8;
-}
-
-.lista_de_atividades{
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-}
-
-.lista_de_atividades_corpo{
-    background: var(--branco-);
-    width: 400px;
-    height: 95%;
-    border-radius: 10px;
-    margin: auto;
-}
-
-.lista_de_atividades_nav{
-    background: var(--cor-principal);
-    width: 100%;
-    height: 10%;
-    border-radius: 2px;
-}
-
-.paragrafo_nav{
-    color: var(--branco-);
-    font-weight: bold;
-    cursor: context-menu;
-    font-size: 18px;
-}
-
-.lista_de_atividades_nav_titulo{
+#main{
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.lista_de_atividades_nav_titulo > div > p > span{
-    font-size: 28px;
+.conteiner{
+    width: 250px;
+    height: 500px;
+    background: #204E4A;
+    border-radius: 15px;
 }
 
-.lista_de_atividades_itens{
+.header-sumario{
+    height: 12%;
+    background: #81C14B;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-sumario-txt{
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.header-sumario-txtzinho{
+    color: #fff;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.corpo-sumario{
+    height: 85%;
+    overflow:auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 7.5px;
+}
+
+.btn{
+    border-radius: 10px;
     width: 100%;
-    height: 525px;
-    overflow: auto;
-    /* text-align: center;
-    overflow: auto; */
+    height: 65px;
+    background: #ECBA82;
+    border: none;
+    color: #fff;
+    font-weight: 500;
 }
-
-.lista_de_atividades_itens li {
-        list-style: none;
-        padding: 10px;
-        border: var(--cor-terciaria) 1.5px solid;
-        border-radius: 2px;
-}
-
-.lista_de_atividades_itens li:hover{
-    a{
-       color: var(--branco-); 
-    }
-
-    background: var(--cor-secundaria);
-}
-
-
-
