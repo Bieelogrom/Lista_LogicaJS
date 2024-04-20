@@ -27,3 +27,5 @@ if(tipo_combustivel == "G" || tipo_combustivel == "g"){
         alert(`Você encheu ${num_litros_vendidos.toFixed(2)} litros do seu carro com álcool.\nValor sem desconto : ${valor_sem_desconto.toFixed(2)}\nValor do desconto : ${desconto.toFixed(2)}\nValor final : ${total.toFixed(2)}`)
     }
 }
+
+window.location.href = "index.html"
